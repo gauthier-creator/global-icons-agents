@@ -1,0 +1,106 @@
+{
+  "sources_quotidiennes": [
+    {
+      "nom": "investir.ch — Thomas Veillet",
+      "url": "https://www.investir.ch",
+      "type": "chronique_matinale",
+      "frequence": "quotidien",
+      "heure_scan": "05:00",
+      "pertinence": "Macro marche, tendances, sentiment investisseurs",
+      "priorite": 1
+    },
+    {
+      "nom": "Boursorama — Point Marche",
+      "url": "https://www.boursorama.com/bourse/actualites/",
+      "type": "point_marche",
+      "frequence": "quotidien",
+      "heure_scan": "05:00",
+      "pertinence": "Indices, actu entreprises, tendances jour",
+      "priorite": 1
+    },
+    {
+      "nom": "Zonebourse — Agenda Resultats",
+      "url": "https://www.zonebourse.com/bourse/agenda/",
+      "type": "agenda_resultats",
+      "frequence": "quotidien",
+      "heure_scan": "05:00",
+      "pertinence": "Publications resultats, calendrier eco",
+      "priorite": 2
+    }
+  ],
+  "sources_hebdomadaires": [
+    {
+      "nom": "AMF — Publications",
+      "url": "https://www.amf-france.org/fr/actualites-publications",
+      "type": "regulateur",
+      "frequence": "hebdomadaire",
+      "pertinence": "Reglementation, decisions, alertes marche",
+      "priorite": 1
+    },
+    {
+      "nom": "France Invest — Donnees PE/Dette",
+      "url": "https://www.franceinvest.eu/",
+      "type": "donnees_marche",
+      "frequence": "hebdomadaire_mensuel",
+      "pertinence": "Statistiques Private Equity, dette privee, levees de fonds",
+      "priorite": 1
+    },
+    {
+      "nom": "ASPIM — Donnees SCPI",
+      "url": "https://www.aspim.fr/",
+      "type": "donnees_marche",
+      "frequence": "hebdomadaire_mensuel",
+      "pertinence": "Collecte SCPI, rendements, decollecte, tendances immobilier pierre-papier",
+      "priorite": 1
+    }
+  ],
+  "sources_complementaires": [
+    {
+      "nom": "BCE — Decisions Politique Monetaire",
+      "url": "https://www.ecb.europa.eu/press/pr/date/html/index.en.html",
+      "type": "banque_centrale",
+      "frequence": "evenementiel",
+      "pertinence": "Taux directeurs, forward guidance, impact credit"
+    },
+    {
+      "nom": "Fed — FOMC Decisions",
+      "url": "https://www.federalreserve.gov/newsevents.htm",
+      "type": "banque_centrale",
+      "frequence": "evenementiel",
+      "pertinence": "Politique monetaire US, impact global"
+    },
+    {
+      "nom": "Financial Times — Markets",
+      "url": "https://www.ft.com/markets",
+      "type": "presse_financiere",
+      "frequence": "quotidien",
+      "pertinence": "Tendances globales, analyses macro"
+    },
+    {
+      "nom": "Bloomberg — Alternatives",
+      "url": "https://www.bloomberg.com/markets",
+      "type": "presse_financiere",
+      "frequence": "quotidien",
+      "pertinence": "Donnees marche, alternatifs, tendances institutionnelles"
+    },
+    {
+      "nom": "Preqin — Private Markets",
+      "url": "https://www.preqin.com/insights",
+      "type": "donnees_marche",
+      "frequence": "mensuel",
+      "pertinence": "Donnees private markets, benchmarks, tendances allocations"
+    }
+  ],
+  "scan_config": {
+    "heure_scan_quotidien": "05:00",
+    "heure_scan_hebdo": "dimanche_20:00",
+    "max_articles_par_source": 5,
+    "mots_cles_filtre": [
+      "dette privee", "private debt", "alternatifs", "alternatives",
+      "SCPI", "immobilier", "CGP", "gestion de patrimoine",
+      "family office", "private equity", "credit prive",
+      "taux", "BCE", "Fed", "allocation", "rendement",
+      "risque", "decorrelation", "illiquidite", "secondaire"
+    ]
+  }
+}

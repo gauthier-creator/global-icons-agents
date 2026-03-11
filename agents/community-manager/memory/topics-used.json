@@ -1,0 +1,25 @@
+{
+  "topics": [
+    {
+      "date": "2026-03-11",
+      "sujet": "Collecte SCPI en reprise mais liquidite toujours bloquee — marche polarise",
+      "format": "B",
+      "angle": "Contre-intuitif : la hausse de collecte masque 2,8 Mds de parts en attente",
+      "source": "ASPIM",
+      "canal": "linkedin"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-11",
+    "last_updated": "2026-03-11",
+    "fenetre_anti_repetition_jours": 15,
+    "schema": {
+      "date": "YYYY-MM-DD",
+      "sujet": "Description courte du sujet",
+      "format": "A|B|C",
+      "angle": "L'angle specifique utilise",
+      "source": "Source principale",
+      "canal": "linkedin|twitter|instagram|newsletter"
+    }
+  }
+}

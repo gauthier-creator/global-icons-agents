@@ -1,0 +1,36 @@
+{
+  "semaines": [],
+  "metadata": {
+    "created": "2026-03-11",
+    "last_updated": "2026-03-11",
+    "schema": {
+      "semaine": "YYYY-Wnn",
+      "date_debut": "YYYY-MM-DD",
+      "date_fin": "YYYY-MM-DD",
+      "linkedin": {
+        "posts": 0,
+        "engagement_moyen": 0.0,
+        "impressions_moyennes": 0,
+        "meilleur_post": {},
+        "nouveaux_followers": 0
+      },
+      "newsletter": {
+        "envois": 0,
+        "taux_ouverture": 0.0,
+        "taux_clic": 0.0,
+        "nouveaux_abonnes": 0,
+        "total_abonnes": 0
+      },
+      "twitter": {
+        "tweets": 0,
+        "engagement_moyen": 0.0,
+        "nouveaux_followers": 0
+      },
+      "instagram": {
+        "posts": 0,
+        "engagement_moyen": 0.0,
+        "reach_moyen": 0
+      }
+    }
+  }
+}

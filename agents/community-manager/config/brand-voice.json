@@ -1,0 +1,85 @@
+{
+  "marque": "L'Allocateur",
+  "baseline": "Bloomberg des alternatives",
+  "phase": "Phase 1 — Zero mention Global Icons",
+  "ton": "expert, independant, analytique, direct",
+  "cible": {
+    "principal": "CGP (Conseillers en Gestion de Patrimoine)",
+    "secondaire": "Family Offices",
+    "niveau": "Professionnels aguerris, habitues aux marches financiers",
+    "attentes": "Donnees fiables, analyses differenciantes, gain de temps"
+  },
+  "style": {
+    "voix": "Premiere personne du pluriel (nous) ou impersonnel",
+    "registre": "Soutenu mais accessible, jamais jargonneux sans explication",
+    "rythme": "Phrases courtes et percutantes, paragraphes aerees",
+    "format": "Emojis professionnels autorises (graphiques, fleches) — pas de smileys"
+  },
+  "a_eviter": [
+    "facile",
+    "simple",
+    "revolutionnaire",
+    "incroyable",
+    "extraordinaire",
+    "opportunite unique",
+    "ne ratez pas",
+    "exclusif",
+    "Global Icons",
+    "nos produits",
+    "notre offre",
+    "investissez avec nous",
+    "rendement garanti",
+    "sans risque",
+    "tutoiement"
+  ],
+  "a_privilegier": [
+    "donnees chiffrees avec source",
+    "comparaisons sectorielles",
+    "angles contre-intuitifs",
+    "questions rhetoriques",
+    "references a des etudes ou rapports",
+    "tendances de fond",
+    "implications pratiques pour CGP/FO",
+    "vocabulaire technique maitrise"
+  ],
+  "hook_patterns": [
+    {
+      "type": "chiffre_surprenant",
+      "exemple": "73% des CGP sous-estiment la decorrelation reelle de la dette privee.",
+      "quand": "Donnee recente disponible"
+    },
+    {
+      "type": "question_rhetorique",
+      "exemple": "Pourquoi les meilleurs Family Offices reduisent leur exposition SCPI ?",
+      "quand": "Sujet debattu dans la profession"
+    },
+    {
+      "type": "affirmation_contre_intuitive",
+      "exemple": "La dette privee immobiliere est plus liquide que vous ne le pensez.",
+      "quand": "Idee recue repandue a deconstruire"
+    },
+    {
+      "type": "constat_marche",
+      "exemple": "Le spread de credit HY vient de toucher son plus bas depuis 2007.",
+      "quand": "Mouvement de marche notable"
+    },
+    {
+      "type": "interpellation_directe",
+      "exemple": "CGP : cette allocation vous coute 150 bps par an.",
+      "quand": "Conseil actionnable direct"
+    }
+  ],
+  "emojis_autorises": ["📊", "📈", "📉", "🔍", "💡", "⚠️", "🎯", "→", "↗️", "↘️"],
+  "hashtags_recurrents": [
+    "#Alternatives",
+    "#GestionDePatrimoine",
+    "#CGP",
+    "#FamilyOffice",
+    "#DettePrivee",
+    "#PrivateDebt",
+    "#Immobilier",
+    "#SCPI",
+    "#PrivateEquity",
+    "#AllocationActifs"
+  ]
+}

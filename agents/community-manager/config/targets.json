@@ -1,0 +1,91 @@
+{
+  "objectifs_globaux": {
+    "mission": "Positionner L'Allocateur comme le media de reference sur les investissements alternatifs pour CGP/FO",
+    "phase": "Phase 1 — Construction d'audience et credibilite",
+    "duree_phase": "6 mois",
+    "contrainte_cle": "Zero mention Global Icons"
+  },
+  "kpis": {
+    "newsletter": {
+      "abonnes": {
+        "M3": 300,
+        "M6": 1000,
+        "M12": 3000
+      },
+      "taux_ouverture": {
+        "cible": 0.45,
+        "plancher": 0.35,
+        "benchmark_secteur": 0.38
+      },
+      "taux_clic": {
+        "cible": 0.08,
+        "plancher": 0.04,
+        "benchmark_secteur": 0.05
+      },
+      "taux_desabonnement": {
+        "max_acceptable": 0.02,
+        "alerte": 0.03
+      },
+      "frequence": "1x/semaine (lundi 8h)"
+    },
+    "linkedin": {
+      "engagement_rate": {
+        "cible": 0.03,
+        "plancher": 0.02,
+        "excellent": 0.05
+      },
+      "impressions_par_post": {
+        "cible": 2000,
+        "plancher": 800,
+        "excellent": 5000
+      },
+      "croissance_followers_mois": {
+        "cible": 200,
+        "plancher": 50
+      },
+      "commentaires_par_post": {
+        "cible": 5,
+        "plancher": 2
+      },
+      "frequence": "3x/semaine (lundi, mercredi, vendredi)"
+    },
+    "twitter": {
+      "nouveaux_followers_mois": {
+        "cible": 50,
+        "plancher": 20
+      },
+      "engagement_rate": {
+        "cible": 0.015,
+        "plancher": 0.008
+      },
+      "frequence": "5x/semaine"
+    },
+    "instagram": {
+      "engagement_rate": {
+        "cible": 0.04,
+        "plancher": 0.02
+      },
+      "reach_croissant": true,
+      "frequence": "2x/semaine (mardi, jeudi)"
+    }
+  },
+  "alertes": {
+    "engagement_linkedin_sous_plancher": {
+      "condition": "engagement_rate < 0.02 sur 3 posts consecutifs",
+      "action": "Revoir les hooks et les sujets — analyser les 5 derniers posts performants"
+    },
+    "desabonnement_newsletter_eleve": {
+      "condition": "taux_desabonnement > 0.03",
+      "action": "Verifier pertinence du contenu, frequence, segmentation"
+    },
+    "stagnation_followers": {
+      "condition": "croissance < 20 followers/mois sur LinkedIn",
+      "action": "Augmenter la frequence de commentaires strategiques et collaborations"
+    }
+  },
+  "review_schedule": {
+    "hebdomadaire": "Vendredi 17h — metriques de la semaine",
+    "mensuel": "Dernier vendredi du mois — bilan complet + ajustements",
+    "trimestriel": "Revue strategique — objectifs, positionnement, phase"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "rotation": {
+    "lundi": {
+      "linkedin": "A",
+      "newsletter": true,
+      "twitter": "condensed-A",
+      "instagram": false
+    },
+    "mardi": {
+      "linkedin": "C",
+      "newsletter": false,
+      "twitter": "condensed-C",
+      "instagram": true
+    },
+    "mercredi": {
+      "linkedin": "B",
+      "newsletter": false,
+      "twitter": "condensed-B",
+      "instagram": false
+    },
+    "jeudi": {
+      "linkedin": "B_or_C",
+      "newsletter": false,
+      "twitter": "reactive",
+      "instagram": true
+    },
+    "vendredi": {
+      "linkedin": "A_or_B",
+      "newsletter": false,
+      "twitter": "condensed",
+      "instagram": false
+    }
+  },
+  "formats": {
+    "A": {
+      "nom": "Chronique marche",
+      "description": "Analyse macro, tendances alternatives, donnees de marche",
+      "longueur_mots": { "min": 200, "max": 400 },
+      "structure": [
+        "Hook chiffre ou constat marche",
+        "Contextualisation macro",
+        "Analyse des implications pour les alternatifs",
+        "Donnee cle sourcee",
+        "Question/CTA final"
+      ],
+      "ton": "analytique, factuel, expert"
+    },
+    "B": {
+      "nom": "Insight contre-intuitif",
+      "description": "Brise une idee recue, donnees surprenantes, angle decale",
+      "longueur_mots": { "min": 150, "max": 350 },
+      "structure": [
+        "Hook affirmation contre-intuitive",
+        "Idee recue deconstruite",
+        "Donnees qui prouvent le contraire",
+        "Implications pour CGP/FO",
+        "Question ouverte finale"
+      ],
+      "ton": "provocant, rigoureux, surprenant"
+    },
+    "C": {
+      "nom": "Decryptage pratique",
+      "description": "Comment ca marche, guide pour CGP/FO, methodologie",
+      "longueur_mots": { "min": 200, "max": 400 },
+      "structure": [
+        "Hook question pratique",
+        "Explication du mecanisme",
+        "Exemple concret chiffre",
+        "Points de vigilance",
+        "CTA pratique (checklist, question)"
+      ],
+      "ton": "pedagogique, precis, actionnable"
+    }
+  },
+  "twitter_formats": {
+    "condensed": {
+      "description": "Version condensee du post LinkedIn en 280 caracteres max",
+      "structure": "Hook + Donnee cle + Lien ou question"
+    },
+    "reactive": {
+      "description": "Reaction a chaud sur une actu marche",
+      "structure": "Fait + Analyse en 1 phrase + Question"
+    }
+  },
+  "instagram_formats": {
+    "infographie": {
+      "description": "Visuel donnees cles avec chiffres marquants",
+      "dimensions": "1080x1080 ou 1080x1350"
+    },
+    "carrousel": {
+      "description": "3-5 slides decryptage visuel",
+      "dimensions": "1080x1080"
+    }
+  }
+}
